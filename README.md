@@ -19,6 +19,7 @@
 ## Azure Virtual Machines
 - Creating and Connecting to a Virtual Machine
   - [How to Create and Connect to a Virtual Machine](<Virtual Machines>)
+  - [Connecting to your Virtual Machine](#connecting-to-your-virtual-machine)
   
 ## Deployment Steps
 - Steps to Automate Deployment on Azure
