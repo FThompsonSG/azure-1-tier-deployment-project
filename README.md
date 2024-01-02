@@ -16,5 +16,6 @@
   - [How to Create a Network Security Group](<Network Security Group>)
 
 ## Azure Virtual Machines
-- Creating a Virtual Machine
-  - [How to Create a Virtual Machine](<Virtual Machines>)
+- Creating and Connecting to a Virtual Machine
+  - [How to Create a and Connect to a Virtual Machine](<Virtual Machines>)
+  
