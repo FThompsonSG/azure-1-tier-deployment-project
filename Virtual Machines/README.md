@@ -1,4 +1,10 @@
+- [Azure Virtual Machines](#azure-virtual-machines)
+  - [Creating a Virtual Machine](#creating-a-virtual-machine)
+  - [Connecting to your Virtual Machine via SSH](#connecting-to-your-virtual-machine-via-ssh)
+
+
 # Azure Virtual Machines
+
 
 ## Creating a Virtual Machine
 
@@ -35,5 +41,26 @@
 - The File Should be saved in your '.ssh' Folder.
   ![Key Pair Download](<VM Images/Screenshot 2023-12-24 003005.png>)
 
-## Connecting to your Virtual Machine
+## Connecting to your Virtual Machine via SSH
 
+1. From the 'Virtual Machines' page, Select your VM and then hit 'Connect'.
+  ![Connect Tab](<VM Images/Screenshot 2024-01-02 170008.png>)
+
+2. Now Choose 'Native SSH'.
+  ![Native SSH](<VM Images/Screenshot 2024-01-02 170230.png>)
+
+3. Next, we need to enter the path of our Private Key File in order to generate a custom ssh command.
+  - We can do this by specifying the path to our key file here:
+  - For example `"~/.ssh/name_of_file.pem"`
+  ![SSH Tab](<VM Images/Screenshot 2024-01-02 170255.png>)
+
+- We can Now copy the command that has been generated.
+
+4. Open a CLI (Command Line Interface), I use Git Bash, and paste the command that we generated in the previous step.
+   ![Bash Image](<VM Images/Screenshot 2024-01-02 215752.png>)
+
+5. You will be asked to confirm connection, type 'yes' and press enter
+   ![Confirm fingerprint](<VM Images/Screenshot 2024-01-02 220145.png>)
+
+6. You are now logged into the VM and can start to execute commands.
+   ![SSH Successful](<VM Images/Screenshot 2024-01-02 220410.png>)

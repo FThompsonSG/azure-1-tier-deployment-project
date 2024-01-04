@@ -4,6 +4,7 @@
   - [Azure Virtual Network](#azure-virtual-network)
   - [Network Security Group](#network-security-group)
   - [Azure Virtual Machines](#azure-virtual-machines)
+  - [Deployment Steps](#deployment-steps)
 
 # 1 Tier Deployment Using Azure
 
@@ -17,5 +18,9 @@
 
 ## Azure Virtual Machines
 - Creating and Connecting to a Virtual Machine
-  - [How to Create a and Connect to a Virtual Machine](<Virtual Machines>)
+  - [How to Create and Connect to a Virtual Machine](<Virtual Machines>)
+  - [Connecting to your Virtual Machine](#connecting-to-your-virtual-machine)
   
+## Deployment Steps
+- Steps to Automate Deployment on Azure
+  - [Steps For Automation on Azure](Deployment)
